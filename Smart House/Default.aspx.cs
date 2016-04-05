@@ -16,6 +16,7 @@ namespace Smart_House
 {
     public partial class Default : System.Web.UI.Page
     {
+        //Словарь для девйсов
         private IDictionary<int, Device> Devices;
         protected void Page_Load(object sender, EventArgs e)
         {
